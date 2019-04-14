@@ -11,16 +11,11 @@ int main() {
   string in, out = "";
   while (getline(cin, in)) {
     if (in.size() == 0) continue;
-    auto i = in.find(".......");
-    if (i == string::npos) { // not found '.......'
-      while (in.size() > 0 && in.back() == '\r')
-        in.pop_back();
+    auto i = in.substr(0, 7);
+    if (i != ".......") { // not found '.......'
+      if (in.back() == '\r') in.pop_back();
       out += (out.size() == 0 ? "" : " ") + in;
-    } else {
-      for (int k = 0; k < i; ++k)
-        out.push_back(in[k]);
-      break;
-    }
+    } else break;
   }
   cout << out;
   return 0;
