@@ -7,10 +7,7 @@
 using namespace std;
 
 int main() {
-  string s = "lllllllll";
-  printf("%d", s.find('l'));
-  return 0;
-  freopen("input.txt", "r", stdin);
+  // freopen("input.txt", "r", stdin);
   string in, out = "";
   while (getline(cin, in)) {
     if (in.size() == 0) continue;
