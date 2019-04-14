@@ -7,9 +7,13 @@
 using namespace std;
 
 int main() {
-  // freopen("input.txt", "r", stdin);
+  string s = "lllllllll";
+  printf("%d", s.find('l'));
+  return 0;
+  freopen("input.txt", "r", stdin);
   string in, out = "";
   while (getline(cin, in)) {
+    if (in.size() == 0) continue;
     auto i = in.find(".......");
     if (i == string::npos) { // not found '.......'
       while (in.size() > 0 && in.back() == '\r')
