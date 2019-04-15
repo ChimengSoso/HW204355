@@ -1,2 +1,1 @@
-I love CS205355 Competitive Programming. I also love AlGoRiThM.
-book
+abcd
