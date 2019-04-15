@@ -1,6 +1,6 @@
 ## Home Work 204355 : Competitive Programming
-> The course about Programming and mathematics
- Department of Computer Science, Chiang Mai University
+> The course about **Programming** and **Mathematics**
+> **Department of Computer Science, Chiang Mai University**
 
 ## **Content in each day**
  - **DAY01 :** Intro about Competitive Programming & Big Integer
