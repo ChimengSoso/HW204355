@@ -23,6 +23,7 @@
  - **DAY21 :** Maximum flow (Ford-Fulkerson and Edmonds-Karp Algorithm)
  - **DAY22 :** Advance max flow problem & Minimum Cut Problem
  - **DAY23 :** String exercise problem
+ - **DAY24 :** Computational Geometry
 
  
 > **Department of Computer Science, Chiang Mai University**
