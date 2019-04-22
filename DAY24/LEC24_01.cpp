@@ -7,7 +7,7 @@
 using namespace std;
 
 int main() {
-  freopen("input.txt", "r", stdin);
+  // freopen("input.txt", "r", stdin);
   int x, y, z;
   vector<tuple<int, int, int>> p;
   while (cin >> x >> y >> z, x || y || z)
@@ -27,7 +27,8 @@ int main() {
       if (dst > 10) continue;
       mn_dst = min(mn_dst, dst);
     }
-    htg[mn_dst]++;
+    if (mn_dst != (int) 1e9)
+      htg[mn_dst]++;
   }
   for (int i = 0; i < 10; ++i)
     printf("%d ", htg[i]);
