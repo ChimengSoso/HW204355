@@ -12,7 +12,7 @@ int main() {
   while (t--) {
     int ax1, ax2, ax3, ax4;
     scanf("%d%d%d%d", &ax1, &ax2, &ax3, &ax4);
-
+    
     int bx1, bx2, bx3, bx4;
     scanf("%d%d%d%d", &bx1, &bx2, &bx3, &bx4);
     
