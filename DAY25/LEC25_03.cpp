@@ -16,7 +16,7 @@ int main() {
     using pdd = pair<double, double>;
     
     auto dst = [&](pdd a, pdd b) {
-      return hypot(a.first-b.first, a.second-b.second);
+      return (double)hypot(a.first-b.first, a.second-b.second);
     };
     
     vector<pdd> p(n);
