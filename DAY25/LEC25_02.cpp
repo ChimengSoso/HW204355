@@ -24,7 +24,7 @@ int main() {
         (x1, x2)
     */
     
-    if (ax1 <= bx3 && bx1 <= ax3 && ax2 <= bx3 && bx2 <= ax3) {
+    if (ax1 < bx3 && bx1 < ax3 && ax2 < bx4 && bx2 < ax4) {
       printf("%d %d %d %d\n", max(ax1, bx1), max(ax2, bx2),
                               min(ax3, bx3), min(ax4, bx4));
     } else {
