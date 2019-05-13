@@ -1,6 +1,6 @@
 /**
  *    author:  ChimengSoso
- *    created: Sun Apr 21 2019 1:0:21
+ *    created: Sun Apr 21 2019 01:00:21
  *    file:    LEC24_02.cpp
 **/
 #include <bits/stdc++.h>
